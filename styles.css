@@ -1,0 +1,52 @@
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 24px;
+}
+
+input[type="text"],
+select {
+  margin-top: 10px;
+  padding: 5px;
+}
+
+#developersList {
+  margin-top: 20px;
+  text-align: left;
+}
+
+.developer-card {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.developer-card h2 {
+  margin-top: 0;
+}
+
+.developer-card p {
+  margin: 5px 0;
+}
+
+.table {
+  margin-top: 20px;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.table th,
+.table td {
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.table th {
+  background-color: #f2f2f2;
+}
